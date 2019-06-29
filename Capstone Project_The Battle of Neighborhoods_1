@@ -1,1 +1,14 @@
-khbvsk
+Business Problem
+Raffaele Schiavone
+Gennaro wants to open a new B&B in Naples in Italy. Ciro requested an evaluation based on the proximity of - transport - monuments - and of course the presence of pizzerias.
+
+Date
+To help Gennaro in his search we will need to access following data:
+
+The Localities of Naples, Italia from Wikipedia: https://it.wikipedia.org/wiki/Quartieri_di_Napoli
+
+The coordinates (latitude, longitude) ot these Localities of Naples from Open Street Map APIs
+
+From Foursquare we will need following venues data:   - the b&b venues of the Localities   - the metro venues of the Localities   - the monuments venues of the Localities   - the pizzerias venues of the Localities
+
+We will then leverage the data to determine which locality is most appropriate in order to locate the b&B
